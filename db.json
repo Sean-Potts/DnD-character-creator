@@ -1,0 +1,14 @@
+{
+  "Races": [
+    { "id": 1, "race": "Dragonborn"},
+    { "id": 2, "race": "Dwarf"},
+    { "id": 3, "race": "Elf"},
+    { "id": 4, "race": "Gnome"},
+    { "id": 5, "race": "HalfElf"},
+    { "id": 4, "race": "Halfling"},
+    { "id": 4, "race": "HalfOrc"},
+    { "id": 4, "race": "Human"},
+    { "id": 4, "race": "Teifling"}
+    
+  ]
+}

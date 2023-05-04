@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_overview">
+
+    <fragment
+        android:id="@+id/nav_overview"
+        android:name="com.example.a3.ui.overview.OverviewFragment"
+        android:label="@string/menu_overview"
+        tools:layout="@layout/fragment_overview" />
+
+    <fragment
+        android:id="@+id/nav_base"
+        android:name="com.example.a3.ui.base.BaseFragment"
+        android:label="@string/menu_base"
+        tools:layout="@layout/fragment_base" />
+
+    <fragment
+        android:id="@+id/nav_stats"
+        android:name="com.example.a3.ui.stats.StatsFragment"
+        android:label="@string/menu_stats"
+        tools:layout="@layout/fragment_stats" />
+
+    <fragment
+        android:id="@+id/nav_skills"
+        android:name="com.example.a3.ui.skills.SkillsFragment"
+        android:label="@string/menu_skills"
+        tools:layout="@layout/fragment_skills" />
+
+    <fragment
+        android:id="@+id/nav_save_load"
+        android:name="com.example.a3.ui.save_load.SaveLoadFragment"
+        android:label="@string/menu_save_load"
+        tools:layout="@layout/fragment_save_load"/>
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.a3.ui.map.MapFragment"
+        android:label="@string/menu_map"
+        tools:layout="@layout/fragment_map"/>
+
+
+    <action
+        android:id="@+id/action_to_map"
+        app:destination="@id/nav_map"
+        app:popUpTo="@+id/nav_map"
+        app:popUpToInclusive="true"/>
+
+    <action android:id="@+id/moveToSpecificFragment"
+        app:destination="@id/nav_map"/>
+</navigation>

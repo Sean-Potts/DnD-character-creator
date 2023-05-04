@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">A3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Character Menu</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_send">Send</string>
+
+    <string name="menu_overview">Overview</string>
+    <string name="character_development">Overview</string>
+
+
+    <string name="menu_base">Character Base</string>
+    <string name="menu_stats">Stats</string>
+    <string name="menu_skills">Skills</string>
+    <string name="menu_save_load">Save/Load</string>
+    <string name="menu_map">Map</string>
+
+    <string name="menu_title_creator">Character Creator</string>
+    <string name="menu_title_storage">Storage</string>
+    <string name="menu_title_local">Local Games</string>
+
+    <string name="stat_strength">Strength:</string>
+    <string name="stat_dexterity">Dexterity:</string>
+    <string name="stat_constitution">Constitution:</string>
+    <string name="stat_intelligence">Intelligence:</string>
+    <string name="stat_wisdom">Wisdom:</string>
+    <string name="stat_charisma">Charisma:</string>
+
+    <string name="stat_racial">Racial Bonus</string>
+    <string name="stat_roll">Roll Stats</string>
+
+
+    <string name="skill_athletics">Athletics</string>
+    <string name="skill_acrobatics">Acrobatics</string>
+    <string name="skill_sleight_of_hand">Sleight of Hand</string>
+    <string name="skill_stealth">Stealth</string>
+    <string name="skill_arcana">Arcana</string>
+    <string name="skill_history">History</string>
+    <string name="skill_investigation">Investigation</string>
+    <string name="skill_nature">Nature</string>
+    <string name="skill_religion">Religion</string>
+    <string name="skill_animal_handling">Animal Handling</string>
+    <string name="skill_insight">Insight</string>
+    <string name="skill_medicine">Medicine</string>
+    <string name="skill_perception">Perception</string>
+    <string name="skill_survival">Survival</string>
+    <string name="skill_deception">Deception</string>
+    <string name="skill_intimidation">Intimidation</string>
+    <string name="skill_performance">Performance</string>
+    <string name="skill_persuasion">Persuasion</string>
+
+    <string name="name_val">New Character</string>
+    <string name="class_val">none</string>
+    <string name="race_val">none</string>
+    <string name="base_name">Name:</string>
+    <string name="base_class">Class:</string>
+    <string name="base_race">Race:</string>
+    <string name="base_img_text">Character Icon / Art:</string>
+    <string name="base_img_btn">Select Image</string>
+    <string name="is_saved">character not saved</string>
+    <string name="base_background">Background:</string>
+
+    <string name="save_store">Save Character</string>
+    <string name="save_load">Load Character</string>
+    <string name="save_delete">Delete Character</string>
+    <string name="save_export">Export Character</string>
+    <string name="save_select">Current Character:</string>
+
+
+    <string name="load_dial_button">Load</string>
+    <string name="delete_dial_button">Delete</string>
+    <string name="cancel_dial_button">Cancel</string>
+
+    <string name="dialog_title">What would you like to do?</string>
+    <string name="dialog_character">Character:</string>
+
+    <string name="map_no_internet">No Internet Connection.\nPlease check internet status\nand reload</string>
+    <string name="appwidget_text">Loaded Character: </string>
+    <string name="add_widget">Loaded Character</string>
+    <string name="app_widget_description">tells you what character is currently loaded</string>
+
+
+    <string name="notify_title">New game near you</string>
+    <string name="notify_name">Local Games</string>
+    <string name="notify_desc">Notifications for when there is a new game near you</string>
+    <string name="notify_channel">Local Games Channel</string>
+
+</resources>
